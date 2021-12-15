@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+
+body {
+  background-color: #C9ADA7;
+  color: white;
+  font-family: sans-serif;
+}
+
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.modalHeader {
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+
+/* ///////////////////////////////////////////// */
+.post-enter {
+  transform: translateX(-100vw);
+}
+.post-enter-active {
+  transform: translateX(0px);
+  transition: all 500ms ease-in;
+}
+.post-exit {
+  opacity: 1;
+}
+.post-exit-active {
+  transform: translateX(-100vw);
+  transition: all 500ms ease-in;
+}
+
+/* ///////////////////////////////////////////// */
+.inputPost-enter {
+  opacity: 0;
+}
+.inputPost-enter-active {
+  opacity: 1;
+  transition: all 300ms ease-in;
+}
+.inputPost-exit {
+  opacity: 1;
+  transition: 300ms;
+}
+.inputPost-exit-active {
+  opacity: 0;
+  transition: all 300ms ease-in ;
+}
+/* ///////////////////////////////////////////// */

@@ -1,0 +1,37 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  height: 100vw;
+}
+
+.auth {
+  margin-top: 30px;
+  padding: 30px 15px 20px;
+  background-color: #F2E9E4;
+  border-radius: 5px;
+}
+
+h1 {
+  color: black;
+  margin-bottom: 10px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column; 
+  margin-bottom: 10px;
+}
+
+.button {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.span {
+  cursor: pointer;
+  color: #9A8C98;
+}
+
+.span:hover {
+  color:black;
+}

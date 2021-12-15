@@ -1,0 +1,46 @@
+.mainPost {
+  display: flex;
+  flex-direction: column;
+  border: solid 0.2px;
+  margin: 10px 0;
+
+  background-color: #F2E9E4;
+  color: black;
+  
+  min-height: 50px;
+  border-radius: 5px;
+  border-width: 0;
+
+  align-items: flex-start;
+
+  padding: 10px 10px 10px 20px;
+}
+
+.postName {
+  font-size: 20px;
+  margin-bottom: 5px;
+  height: auto;
+  overflow-x: scroll;
+  font-weight: bold;
+  max-width:100%;
+}
+.postName::-webkit-scrollbar {
+  display: none;
+}
+
+.content {
+  margin: 0 0;
+  overflow-x: scroll;
+  max-width:100%;
+}
+
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+.bottomContent {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  max-width:100%;
+}

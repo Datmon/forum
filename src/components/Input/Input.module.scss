@@ -1,0 +1,23 @@
+input {
+  border-radius: 5px;
+  border-width: 0;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.postName {
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.searchText {
+  margin-left: 10px;
+  width: 100%;
+  padding-top: 3px;
+}
+
+.searchText::placeholder {
+  padding-left: 0px;
+}
